@@ -11,4 +11,8 @@ echo '{"a":{"b":1}}' | jqn '.a.b'
 # support js functions
 echo '{"a":{"b":[1,2,3,4]}}' | jqn '.a.b.filter(v=>v>2)[0]'
 # output => 3
+
+# support object entries/keys/values
+echo '{"a":{"b":1}}' | jqn '.keys()[0]'
+# output => a
 ```
