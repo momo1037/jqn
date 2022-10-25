@@ -1,7 +1,7 @@
 ```bash
 # use npx
 echo '{"a":{"b":1}}' | npx jqn '.a.b'
-# out => 1
+# output => 1
 
 # or install globally
 npm i -g jqn

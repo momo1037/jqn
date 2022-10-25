@@ -1,14 +1,18 @@
 {
   "name": "jqn",
-  "version": "1.0.2",
-  "description": "",
+  "version": "1.0.3",
+  "description": "command line json parser like jq",
   "main": "main.js",
-  "type": "module",
   "bin": "main.js",
+  "repository": "github:w72/jqn",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "jq",
+    "json",
+    "cli"
+  ],
+  "author": "w72",
   "license": "MIT"
 }
