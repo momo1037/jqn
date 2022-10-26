@@ -1,6 +1,6 @@
 {
   "name": "jqn",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "command line json parser like jq",
   "main": "main.js",
   "bin": "main.js",
