@@ -19,10 +19,11 @@ echo '{"a":{"b":[1,2,3,4]}}' | jqn '.a.b.filter(v=>v>2)[0]'
 # output => 3
 
 # support any js code (when path does not start with a dot)
-# note: only the first $ will be replaced with data, so if you want to use data more than once, you can store it in a variable
 echo '{"a":{"b":1}}' | jqn 'Object.keys($)[0]'
 # output => a
 
+# note: only the first $ will be replaced with data,
+# so if you want to use data more than once, you can store it in a variable
 echo '{"a":1,"b":2}' | jqn 'x=$;delete x.a;JSON.stringify(x)'
 # output => {"b":2}
 ```
