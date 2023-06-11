@@ -1,8 +1,9 @@
 {
   "name": "jqn",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "command line json parser like jq",
-  "main": "main.js",
+  "author": "w72e@qq.com",
+  "license": "MIT",
   "bin": "main.js",
   "repository": "github:w72/jqn",
   "scripts": {
@@ -12,7 +13,5 @@
     "jq",
     "json",
     "cli"
-  ],
-  "author": "w72",
-  "license": "MIT"
+  ]
 }
