@@ -1,9 +1,9 @@
 # jqn
 
-command line json parser like jq
-
 ![](https://img.shields.io/npm/v/jqn)
 ![](https://img.shields.io/npm/l/jqn)
+
+command line json parser like jq
 
 ## Usage
 
