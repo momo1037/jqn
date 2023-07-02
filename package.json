@@ -1,6 +1,6 @@
 {
   "name": "jqn",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "command line json parser like jq",
   "author": "w72e@qq.com",
   "license": "MIT",

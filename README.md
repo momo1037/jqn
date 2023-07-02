@@ -1,6 +1,6 @@
 # jqn
 
-![](https://img.shields.io/npm/v/jqn)
+[![](https://img.shields.io/npm/v/jqn)](https://www.npmjs.com/package/jqn)
 ![](https://img.shields.io/npm/l/jqn)
 
 command line json parser like jq
