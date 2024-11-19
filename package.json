@@ -1,11 +1,11 @@
 {
   "name": "jqn",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "command line json parser like jq",
-  "author": "w72e@qq.com",
+  "author": "momo1037@qq.com",
   "license": "MIT",
   "bin": "main.js",
-  "repository": "github:w72/jqn",
+  "repository": "github:momo1037/jqn",
   "scripts": {
     "test": "bash test.sh"
   },
